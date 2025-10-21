@@ -79,7 +79,6 @@ Chaque photo de `B_photos` est scannée, et les visages détectés sont comparé
 - ✅ **1 personne reconnue** → la photo est copiée dans `C_resultats/nom_personne`  
 - 👥 **plusieurs personnes reconnues** → la photo est copiée dans `C_resultats/nom1_nom2`  
 - ❌ **aucun visage reconnu** → la photo est déplacée dans `logs/no_match`  
->>>>>>> f57330eacf64a0517e3b1da2d688d9e6aa5c64ed
 
 ### Étape 4 — Génération des rapports
 Deux fichiers sont créés :

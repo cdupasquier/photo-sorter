@@ -20,6 +20,17 @@ logs/*
 !C_resultats/.gitkeep
 !logs/.gitkeep
 
+
+# --- MAIS conserve les README pour garder la structure ---
+!A_references/
+!B_photos/
+!C_resultats/
+!logs/
+!A_references/README.md
+!B_photos/README.md
+!C_resultats/README.md
+!logs/README.md
+
 # --- Rapports et fichiers générés ---
 *.csv
 *.html
