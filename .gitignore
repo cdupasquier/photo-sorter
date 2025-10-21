@@ -14,6 +14,9 @@ B_photos/*
 C_resultats/*
 logs/*
 
+photo_sorter_v4.build/
+photo_sorter_v4.dist/
+
 # On garde les dossiers eux-mêmes
 !A_references/.gitkeep
 !B_photos/.gitkeep
@@ -50,4 +53,4 @@ desktop.ini
 photo_sorter_v1.py
 photo_sorter_v2_1_debug.py
 photo_sorter_v3.py
-photo_shorter_v4.py
+photo_sorter_v4.py
