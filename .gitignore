@@ -1,0 +1,41 @@
+# --- Environnement Python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# --- Données utilisateur ---
+# On garde les dossiers, mais on ignore leur contenu
+A_references/*
+B_photos/*
+C_resultats/*
+logs/*
+
+# On garde les dossiers eux-mêmes
+!A_references/.gitkeep
+!B_photos/.gitkeep
+!C_resultats/.gitkeep
+!logs/.gitkeep
+
+# --- Rapports et fichiers générés ---
+*.csv
+*.html
+
+# --- IDE / éditeurs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Systèmes ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Anciennes versions du script ---
+photo_sorter_v1.py
+photo_sorter_v2_1_debug.py
+photo_sorter_v3.py
